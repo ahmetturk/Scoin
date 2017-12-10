@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmet.scoin.Fragment.CompareFragment"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:id="@+id/compare_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/compare_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/compare"
+                android:layout_alignParentRight="true"/>
+            <EditText
+                android:id="@+id/compare_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_value"
+                android:layout_toLeftOf="@+id/compare_button"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/dollart"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/usd"
+                android:textSize="22sp"
+                android:gravity="end"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:layout_toRightOf="@id/dollart"
+                android:id="@+id/dollar_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:gravity="end"
+                android:textAlignment="textEnd"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:id="@+id/eurot"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/euro"
+                android:textSize="22sp"
+                android:gravity="end"
+                android:textAlignment="textEnd"/>
+            <TextView
+                android:layout_toRightOf="@id/eurot"
+                android:id="@+id/euro_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:gravity="end"
+                android:textAlignment="textEnd"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:id="@+id/lirat"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lira"
+                android:textSize="22sp"
+                android:gravity="end"
+                android:textAlignment="textEnd"/>
+            <TextView
+                android:layout_toRightOf="@id/lirat"
+                android:id="@+id/lira_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:gravity="end"
+                android:textAlignment="textEnd"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

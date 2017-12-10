@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Scoin</string>
+
+    <string name="category_now">Now</string>
+    <string name="category_history">HIstory</string>
+    <string name="category_compare">Compare</string>
+
+    <string name="now_info">1 Scoin is now</string>
+    <string name="enter_value">Enter value</string>
+    <string name="compare">Enter</string>
+
+    <string name="usd">USD:</string>
+    <string name="euro">EUR:</string>
+    <string name="lira">TRY:</string>
+
+    <string name="pref_past_to_present_label">From Past To Present</string>
+    <string name="pref_present_to_past_label">From Present To Past</string>
+    <string name="pref_history_label">History Sorting</string>
+
+    <string name="pref_past_to_present">pasttopresent</string>
+    <string name="pref_present_to_past">presenttopast</string>
+    <string name="pref_history_key">sorting</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

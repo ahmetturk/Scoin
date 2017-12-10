@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        android:defaultValue="@string/pref_past_to_present"
+        android:entries="@array/pref_history_options"
+        android:entryValues="@array/pref_history_values"
+        android:key="@string/pref_history_key"
+        android:title="@string/pref_history_label" />
+
+</PreferenceScreen>
